@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  height: 100vh;
+  background: lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  background-image: linear-gradient(
+    to right bottom,
+    #0c2c5d,
+    #005d81,
+    #298d93,
+    #81ba9f,
+    #d7e4b9
+  );
+  text-align: center;
+  border-radius: 20px;
+  padding: 3vw 10vw;
+}
+
+div {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 1fr 1fr;
+  gap: 1vw;
+  margin-bottom: 1vw;
+}
+
+h1 {
+  margin-bottom: 1vw;
+  font-size: 5rem;
+  color: lightgray;
+}
+
+h2 {
+  margin-bottom: 2vw;
+  font-size: 4rem;
+}
+
+button {
+  height: 5vh;
+  width: 8vw;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  background-color: lightgray;
+}
+
+.lastbutton {
+  width: 18vw;
+}
